@@ -1,0 +1,59 @@
+.conteiner{
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.carrossel-wraper{
+    overflow-x: auto;
+}
+.carrossel::-webkit-scrollbar{
+    display: none;
+    width: none;
+}
+.carrossel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    max-width: 600px;
+    gap: 15px;
+}
+.produto{
+    opacity: 0.8;
+    margin-left: 15%;
+    margin-right: 15%;    
+}
+.direita{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    font-size: 60px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+    opacity: 0.3;
+    transition: all 600ms ease-in-out;
+}
+.esquerda{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: auto;
+    font-size: 60px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.3;
+    transition: all 600ms ease-in-out;
+}
+.esquerda:hover{
+    opacity: 1;
+}
+.direita:hover{
+    opacity: 1;
+}

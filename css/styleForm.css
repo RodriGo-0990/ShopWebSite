@@ -1,0 +1,37 @@
+.form{
+    padding-top: 60px;
+}
+
+.dados{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.input{
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border-top: 1px;
+    border-left: 1px;
+    cursor: pointer;
+
+}
+.button{
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border-top: 1px;
+    border-left: 1px;
+    margin-top: 40px;
+    padding: 5px;
+    cursor: pointer;
+    background: linear-gradient(0deg, #14141471 0%, #727273 35%, #dfe1e1 100%);
+}
+.buttons{
+    text-align: center;
+}

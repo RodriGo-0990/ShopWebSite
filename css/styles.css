@@ -1,0 +1,164 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, 'Arial Narrow Bold'
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url(/img/Background.jpg);
+    background-size: cover;
+}
+
+.center {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1500px;
+}
+
+header {
+    background-color: #7a757534;
+}
+
+.titulo {
+    font-weight: bolder;
+    color: #000000dc;
+    font-size: 50px;
+    width: 40%;
+    padding-right: 100px;
+    padding-top: 70px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.logo {
+    padding-top: 60px;
+    padding-left: 200px;
+}
+
+.menu {
+    padding-right: 210px;
+    padding-top: 90px;
+    width: 90%;
+    text-align: right;
+}
+
+.menu a {
+    color: #000000c1;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-left: 15px;
+}
+
+a:hover {
+    color: #979352;
+    transition: 0.8s;
+}
+
+.info {
+    margin: 30px auto;
+    width: 50%;
+    height: 460px;
+    display: flex;
+    color: #1e1e1ee0;
+    font-size: medium;
+    text-align: left;
+}
+
+.card h2 {
+    padding-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.card h2:hover{
+    color: #565646;
+    transition: 0.8s;
+}
+.card img {
+    cursor: pointer;
+    }
+
+.texto {
+    font-size: 18px;
+    overflow-wrap: auto;
+    overflow-y: scroll;
+    width: 100%;
+    height: 98%;
+}
+
+.texto::-webkit-scrollbar {
+    display: none;
+   
+}
+
+.card {
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 60px;
+    background-image: linear-gradient(#cdcdcd15 20%, rgba(0, 0, 0, 0.607));
+    letter-spacing: 1px;
+    box-shadow: 20px 30px 10px -10px rgba(0, 0, 0, 0.4);
+    animation: fadeIn 1.5s;
+
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card:hover {
+    background-image: linear-gradient(#a8a8a81c 20%, rgba(0, 0, 0, 0.607));
+}
+
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display:flex;
+    padding: 10px 200px;
+    background-color: #aaaaaa54;
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.email {
+    width: 80%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.divIcons {
+    display: flex;
+}
+
+.contatoIcon {
+    padding-left: 20px;
+    opacity: 1;
+}
+
+.contatoIcon :hover {
+    opacity: 0.6;
+}
