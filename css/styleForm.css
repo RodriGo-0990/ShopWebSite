@@ -3,10 +3,10 @@
 }
 
 .dados{
+    text-align: center;
     padding-top: 20px;
     padding-left: 10px;
     padding-bottom: 15px;
-    text-align: left;
     font-weight: bold;
     font-size: 20px;
 }
@@ -31,6 +31,7 @@
     padding: 5px;
     cursor: pointer;
     background: linear-gradient(0deg, #14141471 0%, #727273 35%, #dfe1e1 100%);
+    
 }
 .buttons{
     text-align: center;
